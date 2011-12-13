@@ -58,43 +58,41 @@ hi PMenuSbar                 guibg=#5A647E gui=NONE
 hi PMenuThumb                guibg=#AAAAAA gui=NONE
 
 
-"rubyComment
+" Comments and TODO line
 hi Comment                   guifg=#BC9458 gui=italic
 hi Todo                      guifg=#BC9458 guibg=NONE gui=italic
 
-"rubyPseudoVariable
-"nil, self, symbols, etc
+" Variables and Constants, etc
 hi Constant                  guifg=#6D9CBE
 
-"rubyClass, rubyModule, rubyDefine
-"def, end, include, etc
+" Definitions (e.g.: def, end, etc)
 hi Define                    guifg=#CC7833
 
-"rubyInterpolation
+" Interpolation
 hi Delimiter                 guifg=#519F50
 
-"rubyError, rubyInvalidVariable
+" Error
 hi Error                     guifg=#FFFFFF guibg=#990000
 
-"rubyFunction
+" Functions
 hi Function                  guifg=#FFC66D gui=NONE
 
-"rubyIdentifier
-"@var, @@var, $var, etc
+" Identifier
+" @var, @@var, $var, etc
 hi Identifier                guifg=#D0D0FF gui=NONE
 
-"rubyInclude
-"include, autoload, extend, load, require
+" Include
+" include, autoload, extend, load, require
 hi Include                   guifg=#CC7833 gui=NONE
 
-"rubyKeyword, rubyKeywordAsMethod
-"alias, undef, super, yield, callcc, caller, lambda, proc
+" Keywords
+" alias, undef, super, yield, callcc, caller, lambda, proc
 hi Keyword                   guifg=#CC7833
 
 " same as define
 hi Macro                     guifg=#CC7833 gui=NONE
 
-"rubyInteger
+" Integers
 hi Number                    guifg=#A5C261
 
 " #if, #else, #endif
@@ -103,16 +101,15 @@ hi PreCondit                 guifg=#CC7833 gui=NONE
 " generic preprocessor
 hi PreProc                   guifg=#CC7833 gui=NONE
 
-"rubyControl, rubyAccess, rubyEval
-"case, begin, do, for, if unless, while, until else, etc.
+" Statements (e.g.: if, while, for, etc)
 hi Statement                 guifg=#CC7833 gui=NONE
 
-"rubyString
+" String
 hi String                    guifg=#A5C261
 
 hi Title                     guifg=#FFFFFF
 
-"rubyConstant
+" Constant and Types
 hi Type                      guifg=#DA4939 gui=NONE
 
 hi DiffAdd                   guifg=#E6E1DC guibg=#144212

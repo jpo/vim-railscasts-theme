@@ -1,7 +1,7 @@
 " Vim color scheme
 "
 " Name:        railscast.vim
-" Maintainer:  Josh O'Rourke <jorourke23@gmail.com>
+" Maintainer:  Gilson Filho <contato@gilsondev.com>
 " License:     public domain
 "
 " A GUI Only port of the RailsCasts TextMate theme [1] to Vim.
@@ -35,6 +35,7 @@ hi LineNr                    guifg=#777777 gui=NONE
 hi StatusLine                guibg=#414243 gui=NONE
 hi StatusLineNC              guibg=#414243 gui=NONE
 hi VertSplit                 guibg=#414243 gui=NONE
+hi NonText                   guifg=#777777
 
 " Folds
 " -----

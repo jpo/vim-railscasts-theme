@@ -1,6 +1,6 @@
 # Description
 
-A GUI only color scheme based on the RailsCasts TextMate theme.
+A GUI only color scheme based on the repository ``vim-railscasts-theme``.
 
 # Installation
 

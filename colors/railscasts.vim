@@ -1,7 +1,7 @@
 " Vim color scheme
 "
 " Name:        railscast.vim
-" Maintainer:  Josh O'Rourke <jorourke23@gmail.com>
+" Maintainer:  Josh O'Rourke <joshorourke@me.com>
 " License:     public domain
 "
 " A GUI Only port of the RailsCasts TextMate theme [1] to Vim.

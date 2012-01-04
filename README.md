@@ -8,3 +8,7 @@ A GUI only color scheme based on the RailsCasts TextMate theme.
   other color schemes.
 
 * Type "colorscheme railscasts" into your vimrc file.
+
+# Screenshot
+
+<img src="https://github.com/jpo/vim-railscasts-theme/raw/master/screenshot.png" />

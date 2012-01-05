@@ -10,5 +10,5 @@ A GUI only color scheme based on the RailsCasts TextMate theme.
 * Type "colorscheme railscasts" into your vimrc file.
 
 # How to use in a terminal
+  The GuiColorScheme plugin can display gvim themes in 88/256 colour terminals: https://github.com/vim-scripts/guicolorscheme.vim
 
-* You can use this color scheme in a terminal by using `gvim -v` instead of `vim`

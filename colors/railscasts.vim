@@ -126,3 +126,7 @@ hi link htmlEndTag           xmlEndTag
 hi xmlTag                    guifg=#E8BF6A
 hi xmlTagName                guifg=#E8BF6A
 hi xmlEndTag                 guifg=#E8BF6A
+
+" Invisible chars
+hi SpecialKey     guifg=#777777 guibg=NONE
+hi NonText        guifg=#777777 guibg=NONE

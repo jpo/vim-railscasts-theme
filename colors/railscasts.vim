@@ -35,12 +35,16 @@ hi LineNr                    guibg=#333435 guifg=#777777 gui=NONE
 hi StatusLine                guibg=#414243 gui=NONE
 hi StatusLineNC              guibg=#414243 gui=NONE
 hi VertSplit                 guibg=#414243 gui=NONE
-hi NonText                   guifg=#777777
 
 " Folds
 " -----
 " line used for closed folds
 hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE
+
+" Invisible Characters
+" ------------------
+hi NonText                   guifg=#777777 gui=NONE
+hi SpecialKey                guifg=#777777 gui=NONE
 
 " Misc
 " ----

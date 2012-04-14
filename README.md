@@ -11,4 +11,4 @@ A GUI only color scheme based on the RailsCasts TextMate theme.
 
 # Screenshot
 
-<img src="https://github.com/jpo/vim-railscasts-theme/raw/master/screenshot.png" />
+<img src="vim-railscasts-theme/raw/master/screenshot.png" />

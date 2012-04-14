@@ -32,9 +32,9 @@ hi CursorLine                guibg=#333435
 hi Search                    guibg=#5A647E
 hi Visual                    guibg=#5A647E
 hi LineNr                    guibg=#333435 guifg=#777777 gui=NONE
-hi StatusLine                guibg=#414243 gui=NONE
+hi StatusLine                guibg=#414243 gui=NONE guifg=#E6E1DC
 hi StatusLineNC              guibg=#414243 gui=NONE
-hi VertSplit                 guibg=#414243 gui=NONE
+hi VertSplit                 guibg=#414243 gui=NONE guifg=#414243
 
 " Folds
 " -----
@@ -130,3 +130,4 @@ hi link htmlEndTag           xmlEndTag
 hi xmlTag                    guifg=#E8BF6A
 hi xmlTagName                guifg=#E8BF6A
 hi xmlEndTag                 guifg=#E8BF6A
+

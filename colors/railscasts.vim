@@ -1,14 +1,14 @@
 " Vim color scheme
 "
-" Name:        railscast.vim
-" Maintainer:  Josh O'Rourke <joshorourke@me.com>
-" License:     public domain
+" Name:         railscasts.vim
+" Maintainer:   Dhruva Sagar <dhruva.sagar@gmail.com>
+" Last Change:  07 Mar 2013
+" License:      WTFPL <http://sam.zoy.org/wtfpl/>
+" Version:      2.2
 "
-" A GUI Only port of the RailsCasts TextMate theme [1] to Vim.
-" Some parts of this theme were borrowed from the well-documented Lucius theme [2].
-"
-" [1] http://railscasts.com/about
-" [2] http://www.vim.org/scripts/script.php?script_id=2536
+" This theme is based on Josh O'Rourke's & Nick Moffitt's Vim clone of the
+" railscast textmate theme. The key thing I have done is merged both versions
+" and ensured as much coherence as possible.
 
 set background=dark
 hi clear
@@ -27,7 +27,7 @@ let g:colors_name = "railscasts"
 " Tan          #FFC66D
 
 hi Normal                    guifg=#E6E1DC guibg=#2B2B2B ctermfg=white ctermbg=234
-hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15	
+hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
 hi Search                    guibg=#5A647E ctermfg=NONE ctermbg=236 cterm=underline
 hi Visual                    guibg=#5A647E ctermbg=60
@@ -56,80 +56,65 @@ hi Directory                 guifg=#A5C261 gui=NONE
 " Popup Menu
 " ----------
 " normal item in popup
-hi Pmenu                     guifg=#F6F3E8 guibg=#444444 gui=NONE
+hi Pmenu                     guifg=#F6F3E8 guibg=#444444 gui=NONE ctermfg=white ctermbg=239
 " selected item in popup
-hi PmenuSel                  guifg=#000000 guibg=#A5C261 gui=NONE
+hi PmenuSel                  guifg=#000000 guibg=#A5C261 gui=NONE ctermfg=black ctermbg=107
 " scrollbar in popup
-hi PMenuSbar                 guibg=#5A647E gui=NONE
+hi PMenuSbar                 guibg=#5A647E gui=NONE ctermfg=white ctermbg=242
 " thumb of the scrollbar in the popup
-hi PMenuThumb                guibg=#AAAAAA gui=NONE
+hi PMenuThumb                guibg=#AAAAAA gui=NONE ctermfg=white ctermbg=248
 
-
-"rubyComment
+" Code constructs
+" ---------------
 hi Comment                   guifg=#BC9458 gui=italic ctermfg=137
 hi Todo                      guifg=#BC9458 guibg=NONE gui=italic ctermfg=94
-
-"rubyPseudoVariable
-"nil, self, symbols, etc
 hi Constant                  guifg=#6D9CBE ctermfg=73
-
-"rubyClass, rubyModule, rubyDefine
-"def, end, include, etc
 hi Define                    guifg=#CC7833 ctermfg=173
-
-"rubyInterpolation
 hi Delimiter                 guifg=#519F50
-
-"rubyError, rubyInvalidVariable
 hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
-
-"rubyFunction
 hi Function                  guifg=#FFC66D gui=NONE ctermfg=221 cterm=NONE
-
-"rubyIdentifier
-"@var, @@var, $var, etc
 hi Identifier                guifg=#D0D0FF gui=NONE ctermfg=73 cterm=NONE
-
-"rubyInclude
-"include, autoload, extend, load, require
 hi Include                   guifg=#CC7833 gui=NONE ctermfg=173 cterm=NONE
-
-"rubyKeyword, rubyKeywordAsMethod
-"alias, undef, super, yield, callcc, caller, lambda, proc
 hi Keyword                   guifg=#CC7833 ctermfg=172 cterm=NONE
-
-" same as define
 hi Macro                     guifg=#CC7833 gui=NONE ctermfg=172
-
-"rubyInteger
 hi Number                    guifg=#A5C261 ctermfg=107
-
-" #if, #else, #endif
 hi PreCondit                 guifg=#CC7833 gui=NONE ctermfg=172 cterm=NONE
-
-" generic preprocessor
-hi PreProc                   guifg=#CC7833 gui=NONE ctermfg=103
-
-"rubyControl, rubyAccess, rubyEval
-"case, begin, do, for, if unless, while, until else, etc.
 hi Statement                 guifg=#CC7833 gui=NONE ctermfg=172 cterm=NONE
-
-"rubyString
 hi String                    guifg=#A5C261 ctermfg=107
-
 hi Title                     guifg=#FFFFFF ctermfg=15
+hi Type                      guifg=#DA4939 ctermfg=167 gui=NONE cterm=NONE
+hi PreProc                   guifg=#E6E1DC ctermfg=103
 
-"rubyConstant
-hi Type                      guifg=#DA4939 gui=NONE
+hi DiffAdd                   guifg=#E6E1DC guibg=#519F50 ctermfg=white ctermbg=22
+hi DiffDelete                guifg=#E6E1DC guibg=#660000 gui=bold ctermfg=white ctermbg=52 cterm=bold
+hi DiffChange                guifg=#FFFFFF guibg=#870087 ctermfg=white ctermbg=90
+hi DiffText                  guifg=#FFFFFF guibg=Red gui=bold ctermfg=white ctermbg=red cterm=bold
+hi Special                   guifg=#DA4939 ctermfg=167 
 
-hi DiffAdd                   guifg=#E6E1DC guibg=#144212
-hi DiffDelete                guifg=#E6E1DC guibg=#660000
+hi pythonBuiltin             guifg=#6D9CBE ctermfg=73 gui=NONE cterm=NONE
+hi rubyBlockParameter        guifg=#FFFFFF ctermfg=15
+hi rubyClass                 guifg=#FFFFFF ctermfg=15
+hi rubyConstant              guifg=#DA4939 ctermfg=167
+hi rubyInstanceVariable      guifg=#D0D0FF ctermfg=189
+hi rubyInterpolation         guifg=#519F50 ctermfg=107
+hi rubyLocalVariableOrMethod guifg=#D0D0FF ctermfg=189
+hi rubyPredefinedConstant    guifg=#DA4939 ctermfg=167
+hi rubyPseudoVariable        guifg=#FFC66D ctermfg=221
+hi rubyStringDelimiter       guifg=#A5C261 ctermfg=143
+
+hi mailSubject               guifg=#A5C261 ctermfg=107
+hi mailHeaderKey             guifg=#FFC66D ctermfg=221
+hi mailEmail                 guifg=#A5C261 ctermfg=107 gui=italic cterm=underline
+
+hi SpellBad                  guifg=#D70000 ctermfg=160 ctermbg=NONE cterm=underline
+hi SpellRare                 guifg=#D75F87 ctermfg=168 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi SpellCap                  guifg=#D0D0FF ctermfg=189 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi MatchParen                guifg=#FFFFFF ctermfg=15 guibg=#005f5f ctermbg=23
+
+hi xmlTag                    guifg=#E8BF6A ctermfg=179
+hi xmlTagName                guifg=#E8BF6A ctermfg=179
+hi xmlEndTag                 guifg=#E8BF6A ctermfg=179
 
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
-
-hi xmlTag                    guifg=#E8BF6A
-hi xmlTagName                guifg=#E8BF6A
-hi xmlEndTag                 guifg=#E8BF6A
-

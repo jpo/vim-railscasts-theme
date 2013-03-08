@@ -92,11 +92,11 @@ hi DiffText                  guifg=#FFFFFF guibg=#FF0000 gui=bold ctermfg=15 cte
 hi Special                   guifg=#DA4939 ctermfg=167 
 
 hi pythonBuiltin             guifg=#6D9CBE gui=NONE ctermfg=73 cterm=NONE
-hi rubyBlockParameter        guifg=#FFFFFF ctermfg=15
+hi rubyBlockParameter        guifg=#D0D0FF ctermfg=189
 hi rubyClass                 guifg=#FFFFFF ctermfg=15
 hi rubyConstant              guifg=#DA4939 ctermfg=167
 hi rubyInstanceVariable      guifg=#D0D0FF ctermfg=189
-hi rubyInterpolation         guifg=#519F50 ctermfg=22
+hi rubyInterpolation         guifg=#FFFFFF ctermfg=15
 hi rubyLocalVariableOrMethod guifg=#D0D0FF ctermfg=189
 hi rubyPredefinedConstant    guifg=#DA4939 ctermfg=167
 hi rubyPseudoVariable        guifg=#FFC66D ctermfg=221
@@ -109,7 +109,7 @@ hi mailEmail                 guifg=#A5C261 ctermfg=107 gui=italic cterm=underlin
 hi SpellBad                  guifg=#D70000 ctermfg=160 ctermbg=NONE cterm=underline
 hi SpellRare                 guifg=#D75F87 guibg=NONE gui=underline ctermfg=168 ctermbg=NONE cterm=underline
 hi SpellCap                  guifg=#D0D0FF guibg=NONE gui=underline ctermfg=189 ctermbg=NONE cterm=underline
-hi MatchParen                guifg=#FFFFFF ctermfg=15 guibg=#005f5f ctermbg=23
+hi MatchParen                guifg=#FFFFFF guibg=#005f5f ctermfg=15 ctermbg=23
 
 hi xmlTag                    guifg=#E8BF6A ctermfg=179
 hi xmlTagName                guifg=#E8BF6A ctermfg=179

@@ -1,4 +1,4 @@
-# Description
+# Vim Railscasts Colorscheme
 
 A color scheme based on the RailsCasts TextMate theme with decent support for both GUI and terminal.
 
@@ -6,12 +6,14 @@ A color scheme based on the RailsCasts TextMate theme with decent support for bo
 
 There are 2 ways to do this
 
-1. Copy railscasts.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows) as with 
-   other color schemes. Type "colorscheme railscasts" into your vimrc file.
-2. I recommend installing <a href="https://github.com/tpope/vim-pathogen">pathogen.vim</a> and then adding a git submodule for your plugin:
+1. I recommend installing <a href="https://github.com/tpope/vim-pathogen">pathogen.vim</a> and then adding a git submodule for your plugin:
+
    ```sh
-cd ~/.vim
-git submodule add git@github.com:dhruvasagar/vim-railscasts-theme.git bundle/railscasts-theme
+$ cd ~/.vim
+$ git submodule add git@github.com:dhruvasagar/vim-railscasts-theme.git bundle/railscasts-theme
+   ```
+2. Copy railscasts.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows) as with 
+   other color schemes. Type "colorscheme railscasts" into your vimrc file.
 
 # Screenshot
 

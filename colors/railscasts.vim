@@ -32,6 +32,7 @@ hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
 hi Search                    guifg=#000000 guibg=#5A647E ctermfg=0 ctermbg=60 cterm=NONE
 hi Visual                    guibg=#5A647E ctermbg=60
 hi LineNr                    guifg=#888888 ctermfg=242
+hi SignColumn                guifg=#888888 guibg=NONE ctermfg=242 ctermbg=NONE
 hi StatusLine                guibg=#414243 gui=NONE guifg=#E6E1DC ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC              guibg=#414243 gui=NONE ctermbg=241 cterm=NONE
 hi VertSplit                 guibg=#414243 gui=NONE guifg=#444444 ctermfg=241 ctermbg=238 cterm=NONE
@@ -67,7 +68,7 @@ hi PMenuThumb                guibg=#AAAAAA gui=NONE ctermfg=15 ctermbg=248 cterm
 " Code constructs
 " ---------------
 hi Comment                   guifg=#BC9458 gui=italic ctermfg=137
-hi Todo                      guifg=#DA4939 guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
+hi Todo                      guifg=#BC9458 guibg=NONE gui=NONE ctermfg=137 ctermbg=NONE cterm=NONE
 hi Constant                  guifg=#6D9CBE ctermfg=73
 hi Define                    guifg=#CC7833 ctermfg=130
 hi Delimiter                 guifg=#519F50 ctermfg=22
@@ -101,15 +102,16 @@ hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermb
 " Ruby
 " ----
 hi pythonBuiltin             guifg=#6D9CBE gui=NONE ctermfg=73 cterm=NONE
-hi rubyBlockParameter        guifg=#D0D0FF ctermfg=189
+hi rubyTodo                  guifg=#DA4939 guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
 hi rubyClass                 guifg=#FFFFFF ctermfg=15
 hi rubyConstant              guifg=#DA4939 ctermfg=167
-hi rubyInstanceVariable      guifg=#D0D0FF ctermfg=189
 hi rubyInterpolation         guifg=#FFFFFF ctermfg=15
-hi rubyLocalVariableOrMethod guifg=#D0D0FF ctermfg=189
-hi rubyPredefinedConstant    guifg=#DA4939 ctermfg=167
+hi rubyBlockParameter        guifg=#D0D0FF ctermfg=189
 hi rubyPseudoVariable        guifg=#FFC66D ctermfg=221
 hi rubyStringDelimiter       guifg=#A5C261 ctermfg=107
+hi rubyInstanceVariable      guifg=#D0D0FF ctermfg=189
+hi rubyPredefinedConstant    guifg=#DA4939 ctermfg=167
+hi rubyLocalVariableOrMethod guifg=#D0D0FF ctermfg=189
 
 " Mail
 " ----

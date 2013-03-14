@@ -27,16 +27,17 @@ let g:colors_name = "railscasts"
 " Tan          #FFC66D
 
 hi Normal                    guifg=#E6E1DC guibg=#2B2B2B ctermfg=254 ctermbg=234
-hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
-hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
 hi Search                    guifg=#000000 guibg=#5A647E ctermfg=0 ctermbg=60 cterm=NONE
 hi Visual                    guibg=#5A647E ctermbg=60
 hi LineNr                    guifg=#888888 ctermfg=242
+hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
+hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
+hi CursorLineNr              guifg=#bbbbbb ctermfg=248
 hi StatusLine                guibg=#414243 gui=NONE guifg=#E6E1DC ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC              guibg=#414243 gui=NONE ctermbg=241 cterm=NONE
 hi VertSplit                 guibg=#414243 gui=NONE guifg=#444444 ctermfg=241 ctermbg=238 cterm=NONE
-hi CursorLineNr              guifg=#bbbbbb ctermfg=248
 hi ColorColumn               guibg=#333435 ctermbg=235
+hi! link CursorColumn ColorColumn
 hi SignColumn                guifg=#888888 guibg=NONE ctermfg=242 ctermbg=NONE
 hi! link FoldColumn SignColumn
 

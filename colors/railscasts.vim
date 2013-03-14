@@ -123,9 +123,10 @@ hi mailEmail                 guifg=#A5C261 ctermfg=107 gui=italic cterm=underlin
 
 " Spell
 " ----
-hi SpellBad                  guifg=#D70000 ctermfg=160 ctermbg=NONE cterm=underline
+hi SpellBad                  guifg=#D70000 guibg=NONE gui=undercurl ctermfg=160 ctermbg=NONE cterm=underline
 hi SpellRare                 guifg=#D75F87 guibg=NONE gui=underline ctermfg=168 ctermbg=NONE cterm=underline
 hi SpellCap                  guifg=#D0D0FF guibg=NONE gui=underline ctermfg=189 ctermbg=NONE cterm=underline
+hi SpellLocal                guifg=#00FFFF guibg=NONE gui=undercurl ctermfg=51 ctermbg=NONE cterm=underline
 hi MatchParen                guifg=#FFFFFF guibg=#005f5f ctermfg=15 ctermbg=23
 
 " XML

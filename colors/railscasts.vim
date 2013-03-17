@@ -33,18 +33,18 @@ hi LineNr                    guifg=#888888 ctermfg=242
 hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
 hi CursorLineNr              guifg=#bbbbbb ctermfg=248
-hi StatusLine                guibg=#414243 gui=NONE guifg=#E6E1DC ctermfg=254 ctermbg=241 cterm=NONE
+hi StatusLine                guifg=#E6E1DC guibg=#414243 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC              guibg=#414243 gui=NONE ctermbg=241 cterm=NONE
-hi VertSplit                 guibg=#414243 gui=NONE guifg=#444444 ctermfg=241 ctermbg=238 cterm=NONE
 hi ColorColumn               guibg=#333435 ctermbg=235
 hi! link CursorColumn ColorColumn
+hi VertSplit                 guifg=#444444 guibg=#414243 gui=NONE ctermfg=241 ctermbg=238 cterm=NONE
 hi SignColumn                guifg=#888888 guibg=NONE ctermfg=242 ctermbg=NONE
-hi! link FoldColumn SignColumn
 
 " Folds
 " -----
 " line used for closed folds
-hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE ctermfg=15 ctermbg=241 cterm=NONE
+hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE ctermfg=15 ctermbg=238 cterm=NONE
+hi! link FoldColumn SignColumn
 
 " Invisible Characters
 " ------------------

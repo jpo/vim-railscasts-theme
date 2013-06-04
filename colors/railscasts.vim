@@ -34,7 +34,7 @@ hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 hi CursorLine                guibg=#333435 ctermbg=235 cterm=NONE
 hi CursorLineNr              guifg=#bbbbbb ctermfg=248
 hi StatusLine                guifg=#E6E1DC guibg=#414243 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
-hi StatusLineNC              guibg=#414243 gui=NONE ctermbg=241 cterm=NONE
+hi StatusLineNC              guibg=#303030 gui=NONE ctermbg=234 cterm=NONE
 hi ColorColumn               guibg=#333435 ctermbg=235
 hi! link CursorColumn ColorColumn
 hi VertSplit                 guifg=#444444 guibg=#414243 gui=NONE ctermfg=241 ctermbg=238 cterm=NONE

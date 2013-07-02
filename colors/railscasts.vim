@@ -210,3 +210,7 @@ hi UB6 guifg=darkgray	ctermfg=cyan
 hi UB7 guifg=darkgray	ctermfg=cyan
 hi UB8 guifg=darkgray	ctermfg=cyan
 hi UB9 guifg=darkgray	ctermfg=cyan
+
+hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
+hi checkboxDone guifg=#87ff00 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD
+hi checkboxNotDone guifg=#005fdf guibg=NONE gui=BOLD ctermfg=26 ctermbg=NONE cterm=BOLD

@@ -75,6 +75,7 @@ hi Constant                  guifg=#6D9CBE ctermfg=73
 hi Define                    guifg=#CC7833 ctermfg=130
 hi Delimiter                 guifg=#519F50 ctermfg=22
 hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
+hi WarningMsg                guifg=#800000 guibg=NONE ctermfg=1 ctermbg=NONE
 hi Function                  guifg=#FFC66D gui=NONE ctermfg=221 cterm=NONE
 hi Identifier                guifg=#D0D0FF gui=NONE ctermfg=189 cterm=NONE
 hi Include                   guifg=#CC7833 gui=NONE ctermfg=130 cterm=NONE

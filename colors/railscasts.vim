@@ -2,9 +2,9 @@
 "
 " Name:         railscasts.vim
 " Maintainer:   Dhruva Sagar <dhruva.sagar@gmail.com>
-" Last Change:  07 Mar 2013
+" Last Change:  12 Nov 2013
 " License:      WTFPL <http://sam.zoy.org/wtfpl/>
-" Version:      2.2
+" Version:      2.3
 "
 " This theme is based on Josh O'Rourke's & Nick Moffitt's Vim clone of the
 " railscast textmate theme. The key thing I have done is merged both versions
@@ -37,7 +37,7 @@ hi StatusLine                guifg=#E6E1DC guibg=#414243 gui=NONE ctermfg=254 ct
 hi StatusLineNC              guibg=#303030 gui=NONE ctermbg=234 cterm=NONE
 hi ColorColumn               guibg=#333435 ctermbg=235
 hi! link CursorColumn ColorColumn
-hi VertSplit                 guifg=#444444 guibg=#414243 gui=NONE ctermfg=241 ctermbg=238 cterm=NONE
+hi VertSplit                 guifg=#444444 guibg=#2B2B2B gui=NONE ctermfg=238 ctermbg=234 cterm=NONE
 hi SignColumn                guifg=#FFFFFF guibg=NONE ctermfg=255 ctermbg=NONE
 
 " Folds
@@ -141,76 +141,6 @@ hi xmlEndTag                 guifg=#E8BF6A ctermfg=179
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
-
-" Vimoutliner
-" -----------
-hi OL1 guifg=white	ctermfg=white
-hi OL2 guifg=red	ctermfg=red
-hi OL3 guifg=lightblue	ctermfg=lightblue
-hi OL4 guifg=violet	ctermfg=magenta
-hi OL5 guifg=white	ctermfg=white
-hi OL6 guifg=red	ctermfg=red
-hi OL7 guifg=lightblue	ctermfg=lightblue
-hi OL8 guifg=violet	ctermfg=magenta
-hi OL9 guifg=white	ctermfg=white
-
-" colors for tags
-hi outlTags guifg=darkred	ctermfg=darkred
-
-" color for body text
-hi BT1 guifg=green	ctermfg=green
-hi BT2 guifg=green	ctermfg=green
-hi BT3 guifg=green	ctermfg=green
-hi BT4 guifg=green	ctermfg=green
-hi BT5 guifg=green	ctermfg=green
-hi BT6 guifg=green	ctermfg=green
-hi BT7 guifg=green	ctermfg=green
-hi BT8 guifg=green	ctermfg=green
-hi BT9 guifg=green	ctermfg=green
-
-" color for pre-formatted text
-hi PT1 guifg=blue	ctermfg=cyan
-hi PT2 guifg=blue	ctermfg=cyan
-hi PT3 guifg=blue	ctermfg=cyan
-hi PT4 guifg=blue	ctermfg=cyan
-hi PT5 guifg=blue	ctermfg=cyan
-hi PT6 guifg=blue	ctermfg=cyan
-hi PT7 guifg=blue	ctermfg=cyan
-hi PT8 guifg=blue	ctermfg=cyan
-hi PT9 guifg=blue	ctermfg=cyan
-
-" color for tables 
-hi TA1 guifg=darkviolet	ctermfg=cyan
-hi TA2 guifg=darkviolet	ctermfg=cyan
-hi TA3 guifg=darkviolet	ctermfg=cyan
-hi TA4 guifg=darkviolet	ctermfg=cyan
-hi TA5 guifg=darkviolet	ctermfg=cyan
-hi TA6 guifg=darkviolet	ctermfg=cyan
-hi TA7 guifg=darkviolet	ctermfg=cyan
-hi TA8 guifg=darkviolet	ctermfg=cyan
-hi TA9 guifg=darkviolet	ctermfg=cyan
-
-" color for user text (wrapping)
-hi UT1 guifg=darkred	ctermfg=cyan
-hi UT2 guifg=darkred	ctermfg=cyan
-hi UT3 guifg=darkred	ctermfg=cyan
-hi UT4 guifg=darkred	ctermfg=cyan
-hi UT5 guifg=darkred	ctermfg=cyan
-hi UT6 guifg=darkred	ctermfg=cyan
-hi UT7 guifg=darkred	ctermfg=cyan
-hi UT8 guifg=darkred	ctermfg=cyan
-hi UT9 guifg=darkred	ctermfg=cyan
-
-" color for user text (non-wrapping)
-hi UB1 guifg=darkgray	ctermfg=cyan
-hi UB2 guifg=darkgray	ctermfg=cyan
-hi UB3 guifg=darkgray	ctermfg=cyan
-hi UB4 guifg=darkgray	ctermfg=cyan
-hi UB5 guifg=darkgray	ctermfg=cyan
-hi UB6 guifg=darkgray	ctermfg=cyan
-hi UB7 guifg=darkgray	ctermfg=cyan
-hi UB8 guifg=darkgray	ctermfg=cyan
-hi UB9 guifg=darkgray	ctermfg=cyan
 
 hi checkbox guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
 hi checkboxDone guifg=#87ff00 guibg=NONE gui=BOLD ctermfg=82 ctermbg=NONE cterm=BOLD

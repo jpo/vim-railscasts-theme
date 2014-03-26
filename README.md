@@ -17,4 +17,8 @@ $ git submodule add git@github.com:dhruvasagar/vim-railscasts-theme.git bundle/r
 
 # Screenshot
 
-<img src="https://raw.github.com/jpo/vim-railscasts-theme/master/screenshot.png" />
+## GUI :
+<img src="https://raw.github.com/dhruvasagar/vim-railscasts-theme/master/screenshot.png" />
+
+## Terminal with 256 colors :
+<img src="https://raw.github.com/dhruvasagar/vim-railscasts-theme/master/screenshot_256.png" />

@@ -39,7 +39,6 @@ hi VertSplit                 guifg=#444444 guibg=#2B2B2B gui=NONE ctermfg=238 ct
 hi SignColumn                guifg=#FFFFFF guibg=NONE ctermfg=255 ctermbg=NONE
 
 " StatusLine
-hi User1                     guifg=#E6E1DC guibg=#414243 gui=bold ctermfg=254 ctermbg=241 cterm=bold
 hi StatusLine                guifg=#E6E1DC guibg=#414243 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC              guibg=#303030 gui=NONE ctermbg=234 cterm=NONE
 

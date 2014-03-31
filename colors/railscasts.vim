@@ -42,7 +42,7 @@ hi SignColumn                guifg=#FFFFFF guibg=NONE ctermfg=255 ctermbg=NONE
 " Bold
 hi User1                     guifg=#FFFFFF guibg=#414243 gui=bold ctermfg=255 ctermbg=241 cterm=bold
 " Yellow
-hi User2                     guifg=#FFC66D guibg=#414243 gui=bold ctermfg=221 ctermbg=241 cterm=bold
+hi User2                     guifg=#FFAF00 guibg=#414243 gui=bold ctermfg=214 ctermbg=241 cterm=bold
 " Green
 hi User3                     guifg=#5fff00 guibg=#414243 gui=bold ctermfg=82 ctermbg=241 cterm=bold
 " Red
@@ -53,7 +53,7 @@ hi User7                     guifg=#E6E1DC guibg=#414243 gui=bold ctermfg=254 ct
 hi User8                     guifg=#E6E1DC guibg=#414243 gui=bold ctermfg=254 ctermbg=241 cterm=bold
 hi User9                     guifg=#E6E1DC guibg=#414243 gui=bold ctermfg=254 ctermbg=241 cterm=bold
 hi StatusLine                guifg=#E6E1DC guibg=#414243 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
-hi StatusLineNC              guibg=#303030 gui=NONE ctermbg=234 cterm=NONE
+hi StatusLineNC              guibg=#303030 gui=NONE ctermbg=236 cterm=NONE
 
 " Folds
 " -----
@@ -133,9 +133,9 @@ hi rubyLocalVariableOrMethod guifg=#D0D0FF ctermfg=189
 
 " Mail
 " ----
-hi mailSubject               guifg=#A5C261 ctermfg=107
-hi mailHeaderKey             guifg=#FFC66D ctermfg=221
 hi mailEmail                 guifg=#A5C261 ctermfg=107 gui=italic cterm=underline
+hi mailHeaderKey             guifg=#FFC66D ctermfg=221
+hi! link mailSubject mailHeaderKey
 
 " Spell
 " ----

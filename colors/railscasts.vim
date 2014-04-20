@@ -38,11 +38,11 @@ hi User2                     guifg=#FFAF00 guibg=#606060 gui=bold ctermfg=214 ct
 hi User3                     guifg=#5fff00 guibg=#606060 gui=bold ctermfg=82 ctermbg=241 cterm=bold
 " Red
 hi User4                     guifg=#870000 guibg=#606060 gui=bold ctermfg=88 ctermbg=241 cterm=bold
-hi User5                     guifg=#E6E1DC guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
-hi User6                     guifg=#E6E1DC guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
-hi User7                     guifg=#E6E1DC guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
-hi User8                     guifg=#E6E1DC guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
-hi User9                     guifg=#E6E1DC guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
+hi User5                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
+hi User6                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
+hi User7                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
+hi User8                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
+hi User9                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
 hi StatusLine                guifg=#e4e4e4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
 hi StatusLineNC              guibg=#303030 gui=NONE ctermbg=236 cterm=NONE
 
@@ -83,6 +83,7 @@ hi Delimiter                 guifg=#519F50 ctermfg=22
 hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
 hi WarningMsg                guifg=#800000 guibg=NONE ctermfg=1 ctermbg=NONE
 hi Function                  guifg=#ffdf5f gui=NONE ctermfg=221 cterm=NONE
+hi! link vimFunction Function
 hi Identifier                guifg=#dfdfff gui=NONE ctermfg=189 cterm=NONE
 hi Include                   guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
 hi Keyword                   guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
@@ -93,12 +94,12 @@ hi Statement                 guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
 hi String                    guifg=#87af5f ctermfg=107
 hi Title                     guifg=#FFFFFF ctermfg=15
 hi Type                      guifg=#df5f5f gui=NONE ctermfg=167 cterm=NONE
-hi PreProc                   guifg=#E6E1DC ctermfg=254
+hi PreProc                   guifg=#af5f00 ctermfg=130
 hi Special                   guifg=#df5f5f ctermfg=167 
 
 " Diffs
 " -----
-hi DiffAdd                   guifg=#E6E1DC guibg=#519F50 ctermfg=254 ctermbg=22
+hi DiffAdd                   guifg=#e4e4e4 guibg=#519F50 ctermfg=254 ctermbg=22
 hi DiffDelete                guifg=#000000 guibg=#660000 gui=bold ctermfg=16 ctermbg=52 cterm=bold
 hi DiffChange                guifg=#FFFFFF guibg=#870087 ctermfg=15 ctermbg=90
 hi DiffText                  guifg=#FFFFFF guibg=#FF0000 gui=bold ctermfg=15 ctermbg=9 cterm=bold

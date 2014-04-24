@@ -76,7 +76,7 @@ hi PMenuThumb                guifg=#ffffff guibg=#a8a8a8 gui=NONE ctermfg=15 cte
 " Code constructs
 " ---------------
 hi Comment                   guifg=#af875f ctermfg=137
-hi Todo                      guifg=#df5f5f guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
+hi Todo                      guifg=#df8700 guibg=NONE gui=bold ctermfg=172 ctermbg=NONE cterm=bold
 hi Constant                  guifg=#6D9CBE ctermfg=73
 hi Define                    guifg=#af5f00 ctermfg=130
 hi Delimiter                 guifg=#519F50 ctermfg=22

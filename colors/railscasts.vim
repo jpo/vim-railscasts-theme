@@ -17,7 +17,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = "railscasts"
 
-hi Normal                    guifg=#e4e4e4 guibg=#1c1c1c ctermfg=254 ctermbg=234
+hi Normal                    guifg=#e4e4e4 guibg=#121212 ctermfg=254 ctermbg=233
 hi Search                    guifg=#000000 guibg=#5f5f87 ctermfg=0 ctermbg=60 cterm=NONE
 hi Visual                    guibg=#5f5f87 ctermbg=60
 hi LineNr                    guifg=#666666 ctermfg=242
@@ -26,7 +26,7 @@ hi CursorLine                guibg=#262626 gui=NONE ctermbg=235 cterm=NONE
 hi CursorLineNr              guifg=#a9a8a8 gui=NONE ctermfg=248 cterm=NONE
 hi ColorColumn               guibg=#262626 ctermbg=235
 hi! link CursorColumn ColorColumn
-hi VertSplit                 guifg=#444444 guibg=#1c1c1c gui=NONE ctermfg=238 ctermbg=234 cterm=NONE
+hi VertSplit                 guifg=#444444 guibg=#121212 gui=NONE ctermfg=238 ctermbg=233 cterm=NONE
 hi SignColumn                guifg=#FFFFFF guibg=NONE ctermfg=15 ctermbg=NONE
 
 " StatusLine

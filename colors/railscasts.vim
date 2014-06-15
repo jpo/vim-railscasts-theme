@@ -22,9 +22,9 @@ hi Search                    guifg=#000000 guibg=#5f5f87 ctermfg=0 ctermbg=60 ct
 hi Visual                    guibg=#5f5f87 ctermbg=60
 hi LineNr                    guifg=#666666 ctermfg=242
 hi Cursor                    guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
-hi CursorLine                guibg=#262626 gui=NONE ctermbg=235 cterm=NONE
+hi CursorLine                guibg=#1c1c1c gui=NONE ctermbg=234 cterm=NONE
 hi CursorLineNr              guifg=#a9a8a8 gui=NONE ctermfg=248 cterm=NONE
-hi ColorColumn               guibg=#262626 ctermbg=235
+hi ColorColumn               guibg=#1c1c1c ctermbg=234
 hi! link CursorColumn ColorColumn
 hi VertSplit                 guifg=#444444 guibg=#121212 gui=NONE ctermfg=238 ctermbg=233 cterm=NONE
 hi SignColumn                guifg=#FFFFFF guibg=NONE ctermfg=15 ctermbg=NONE

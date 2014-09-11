@@ -111,7 +111,6 @@ hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermb
 
 " Ruby
 " ----
-hi pythonBuiltin             guifg=#6D9CBE gui=NONE ctermfg=73 cterm=NONE
 hi rubyTodo                  guifg=#df5f5f guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
 hi rubyClass                 guifg=#FFFFFF ctermfg=15
 hi rubyConstant              guifg=#df5f5f ctermfg=167
@@ -122,6 +121,12 @@ hi rubyStringDelimiter       guifg=#87af5f ctermfg=107
 hi rubyInstanceVariable      guifg=#dfdfff ctermfg=189
 hi rubyPredefinedConstant    guifg=#df5f5f ctermfg=167
 hi rubyLocalVariableOrMethod guifg=#dfdfff ctermfg=189
+
+" Python
+" ------
+hi pythonExceptions          guifg=#ffaf87 ctermfg=216
+hi pythonDoctest             guifg=#8787ff ctermfg=105
+hi pythonDoctestValue        guifg=#87d7af ctermfg=115
 
 " Mail
 " ----

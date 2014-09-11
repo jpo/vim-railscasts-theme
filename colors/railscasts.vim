@@ -111,7 +111,6 @@ hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermb
 
 " Ruby
 " ----
-hi pythonBuiltin             guifg=#6D9CBE gui=NONE ctermfg=73 cterm=NONE
 hi rubyTodo                  guifg=#df5f5f guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
 hi rubyClass                 guifg=#FFFFFF ctermfg=15
 hi rubyConstant              guifg=#df5f5f ctermfg=167

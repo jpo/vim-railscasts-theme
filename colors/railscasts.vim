@@ -122,6 +122,12 @@ hi rubyInstanceVariable      guifg=#dfdfff ctermfg=189
 hi rubyPredefinedConstant    guifg=#df5f5f ctermfg=167
 hi rubyLocalVariableOrMethod guifg=#dfdfff ctermfg=189
 
+" Python
+" ------
+hi pythonExceptions          guifg=#ffaf87 ctermfg=216
+hi pythonDoctest             guifg=#8787ff ctermfg=105
+hi pythonDoctestValue        guifg=#87d7af ctermfg=115
+
 " Mail
 " ----
 hi mailEmail                 guifg=#87af5f ctermfg=107 gui=italic cterm=underline

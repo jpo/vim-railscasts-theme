@@ -44,7 +44,7 @@ hi User7                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ct
 hi User8                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
 hi User9                     guifg=#e4e4e4 guibg=#606060 gui=bold ctermfg=254 ctermbg=241 cterm=bold
 hi StatusLine                guifg=#e4e4e4 guibg=#606060 gui=NONE ctermfg=254 ctermbg=241 cterm=NONE
-hi StatusLineNC              guibg=#303030 gui=NONE ctermbg=236 cterm=NONE
+hi StatusLineNC              guifg=#585858 guibg=#303030 gui=NONE ctermfg=240 ctermbg=236 cterm=NONE
 
 " Folds
 " -----

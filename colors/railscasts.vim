@@ -97,7 +97,8 @@ hi DiffDelete                guifg=#000000 guibg=#660000 gui=bold ctermfg=16 cte
 hi DiffChange                guifg=#FFFFFF guibg=#870087 ctermfg=15 ctermbg=90
 hi DiffText                  guifg=#FFFFFF guibg=#FF0000 gui=bold ctermfg=15 ctermbg=9 cterm=bold
 
-hi diffAdded                 guifg=#87af5f ctermfg=107
+hi diffAdded                 guifg=#008700 ctermfg=28
+hi diffRemoved               guifg=#800000 ctermfg=1
 hi diffNewFile               guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 hi diffFile                  guifg=#FFFFFF guibg=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
 

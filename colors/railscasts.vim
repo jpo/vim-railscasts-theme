@@ -84,7 +84,7 @@ hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
 hi WarningMsg                guifg=#800000 guibg=NONE ctermfg=1 ctermbg=NONE
 hi Function                  guifg=#ffdf5f gui=NONE ctermfg=221 cterm=NONE
 hi! link vimFunction Function
-hi Identifier                guifg=#ff8700 gui=NONE ctermfg=208 cterm=NONE
+hi Identifier                guifg=#af5f5f gui=NONE ctermfg=131 cterm=NONE
 hi Include                   guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
 hi Keyword                   guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
 hi Macro                     guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE

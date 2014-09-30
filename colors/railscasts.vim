@@ -88,7 +88,7 @@ hi String                    guifg=#87af5f ctermfg=107
 hi Title                     guifg=#FFFFFF ctermfg=15
 hi Type                      guifg=#df5f5f gui=NONE ctermfg=167 cterm=NONE
 hi PreProc                   guifg=#ff8700 ctermfg=208
-hi Special                   guifg=#005f00 ctermfg=22 
+hi Special                   guifg=#005f00 ctermfg=22
 
 " Diffs
 " -----

@@ -76,26 +76,19 @@ hi PMenuThumb                guifg=#ffffff guibg=#a8a8a8 gui=NONE ctermfg=15 cte
 " Code constructs
 " ---------------
 hi Comment                   guifg=#af875f ctermfg=137
-hi Todo                      guifg=#df8700 guibg=NONE gui=bold ctermfg=172 ctermbg=NONE cterm=bold
+hi Todo                      guifg=#000000 guibg=ffff00 gui=bold ctermfg=16 ctermbg=11 cterm=bold
 hi Constant                  guifg=#6D9CBE ctermfg=73
-hi Define                    guifg=#af5f00 ctermfg=130
-hi Delimiter                 guifg=#519F50 ctermfg=22
 hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
 hi WarningMsg                guifg=#800000 guibg=NONE ctermfg=1 ctermbg=NONE
-hi Function                  guifg=#ffdf5f gui=NONE ctermfg=221 cterm=NONE
-hi! link vimFunction Function
-hi Identifier                guifg=#af5f5f gui=NONE ctermfg=131 cterm=NONE
-hi Include                   guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
+hi Identifier                guifg=#af5f5f gui=NONE ctermfg=221 cterm=NONE
 hi Keyword                   guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
-hi Macro                     guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
 hi Number                    guifg=#87af5f ctermfg=107
-hi PreCondit                 guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
 hi Statement                 guifg=#af5f00 gui=NONE ctermfg=130 cterm=NONE
 hi String                    guifg=#87af5f ctermfg=107
 hi Title                     guifg=#FFFFFF ctermfg=15
 hi Type                      guifg=#df5f5f gui=NONE ctermfg=167 cterm=NONE
 hi PreProc                   guifg=#ff8700 ctermfg=208
-hi Special                   guifg=#df5f5f ctermfg=167 
+hi Special                   guifg=#005f00 ctermfg=22 
 
 " Diffs
 " -----

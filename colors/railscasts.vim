@@ -76,7 +76,8 @@ hi PMenuThumb                guifg=#ffffff guibg=#a8a8a8 gui=NONE ctermfg=15 cte
 " Code constructs
 " ---------------
 hi Comment                   guifg=#af875f ctermfg=137
-hi Todo                      guifg=#000000 guibg=ffff00 gui=bold ctermfg=16 ctermbg=11 cterm=bold
+hi Todo                      guifg=#df5f5f guibg=NONE gui=bold ctermfg=167 ctermbg=NONE cterm=bold
+" hi Todo                      guifg=#000000 guibg=ffff00 gui=bold ctermfg=16 ctermbg=11 cterm=bold
 hi Constant                  guifg=#6D9CBE ctermfg=73
 hi Error                     guifg=#FFFFFF guibg=#990000 ctermfg=221 ctermbg=88
 hi WarningMsg                guifg=#800000 guibg=NONE ctermfg=1 ctermbg=NONE

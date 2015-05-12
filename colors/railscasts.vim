@@ -1,14 +1,8 @@
-" Vim color scheme
 "
-" Name:         railscasts.vim
-" Maintainer:   Dhruva Sagar <dhruva.sagar@gmail.com>
-" Last Change:  10 April '2014
-" License:      WTFPL <http://sam.zoy.org/wtfpl/>
-" Version:      3.0
+" Name:    railscasts.vim
+" URL:     https://github.com/jpo/vim-railscasts-theme
+" License: MIT <http://opensource.org/licenses/MIT>
 "
-" This theme is based on Josh O'Rourke's & Nick Moffitt's Vim clone of the
-" railscast textmate theme. The key thing I have done is merged both versions
-" and ensured as much coherence as possible.
 
 set background=dark
 hi clear

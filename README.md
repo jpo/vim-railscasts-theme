@@ -10,15 +10,15 @@ There are 2 ways to do this
 
    ```sh
 $ cd ~/.vim
-$ git submodule add git@github.com:dhruvasagar/vim-railscasts-theme.git bundle/railscasts-theme
+$ git submodule add git@github.com:jpo/vim-railscasts-theme.git bundle/railscasts-theme
    ```
 2. Copy railscasts.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows) as with 
    other color schemes. Type "colorscheme railscasts" into your vimrc file.
 
-# Screenshot
+# Screenshots
 
 ## GUI :
-<img src="https://raw.github.com/dhruvasagar/vim-railscasts-theme/master/screenshot.png" />
+<img src="https://raw.github.com/jpo/vim-railscasts-theme/master/screenshot.png" />
 
 ## Terminal with 256 colors :
-<img src="https://raw.github.com/dhruvasagar/vim-railscasts-theme/master/screenshot_256.png" />
+<img src="https://raw.github.com/jpo/vim-railscasts-theme/master/screenshot_256.png" />

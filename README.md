@@ -2,7 +2,7 @@
 
 A color scheme based on the RailsCasts TextMate theme with decent support for both GUI and terminal.
 
-# Installation
+## Installation
 
 There are 2 ways to do this
 
@@ -15,10 +15,10 @@ $ git submodule add git@github.com:jpo/vim-railscasts-theme.git bundle/railscast
 2. Copy railscasts.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows) as with 
    other color schemes. Type "colorscheme railscasts" into your vimrc file.
 
-# Screenshots
+## Screenshots
 
-## GUI :
+### GUI :
 <img src="https://raw.github.com/jpo/vim-railscasts-theme/master/screenshot_gui.jpg" />
 
-## Terminal with 256 colors :
+### Terminal with 256 colors :
 <img src="https://raw.github.com/jpo/vim-railscasts-theme/master/screenshot_256.jpg" />

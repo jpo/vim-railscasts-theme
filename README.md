@@ -5,6 +5,7 @@ with decent support for both GUI and terminal.
 
 
 ## Installation
+You can choose between 3 different ways to install it:
 
 ### Pathogen
 
@@ -22,7 +23,7 @@ Install [Vundle](https://github.com/gmarik/Vundle.vim) and then add this theme
 as a plugin to your ```.vimrc```.
 
 ```vim
-Plugin jpo/vim-railscasts-theme
+Plugin 'jpo/vim-railscasts-theme'
 ```
 
 ### Manually
